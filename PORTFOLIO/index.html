@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    
+</head>
+<body style="background-color:black">
+    <nav id="desktop-nav">
+        <div class="logo" style="color:aqua;" > 𝓟𝓱𝓸𝓮𝓷𝓲𝔁 <img src="phoenix.png" height="100%" width="30%"></div>
+      
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about" style="color:aqua;">About</a></li>
+                <li><a href="#skills" style="color:aqua;">Skills</a></li>
+                <li><a href="#projects" style="color:aqua;">Projects</a></li>
+                
+                <li class="dropdown"><a href="#contact-section" style="color: yellow;">Contact</a></li>
+                
+        </div>
+    </nav>
+    <nav id="hamburger-nav"> 
+    <div class="logo" ></div>
+    <div class="hamburger-menu" style="background-color: aqua;">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span style="color:aqua;"></span>
+        <span style="color:aqua;"></span>
+        <span style="color:aqua;"></span>
+        <span style="color:aqua;"></span>
+    </div>
+    <div class="menu-links">
+        <li ><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact-section" onclick="toggleMenu()">Contact</a></li>
+    </div>
+</div>
+</nav>
+<section id="profile">
+    <div class="section_pic-container">
+        <img src="pratham.png" alt="photo" width="100%" height="150%">
+    </div>
+    <div class="section-text">
+     <p class="section-text-p1" style="color:yellow;">Hello I'am</p>
+     <h1 class="title" style="color:yellow;">Prathamesh Kulkarni</h1>
+     <p class="section-text-p2" style="color:yellow;">Software Developer</p>
+     <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('PRATHAMESH_KULKARNI_Resume_13-11-2023-09-34-14.pdf')" style="color:yellow;">
+        download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='contact.html'" style="color:yellow;">
+            Contact Info</button>
+     </div>
+     <div id="social-container">
+        <img src="linkedin.png" alt="my linkedin profile" class="icon" onclick="location.href='https://'">
+        <img src="github.png" alt="my github profile" class="icon" onclick="location.href='https://'">
+     </div>
+    </div>
+</section>
+<section id="about">
+    <p class="section-text-p1"style="color:yellow;">Get To Know More</p>
+    <h1 class="title" style="color:yellow;">About Me</h1>
+    <div class="section-container">
+        <div class="section_pic-container">
+          <!---- <img src="pratham.png" -->
+            alt="profile picture" 
+            class="about-pic" >
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container" style="background-color: aqua;">
+                    <img 
+                    src="./experience.png" 
+                 alt="Experience icon" 
+                 class="icon">
+                    <h3>Experience</h3>
+                    <p>Working On Differents Types of Projects<br> Frontend Development</p>
+                </div>
+                <div class="details-container" style="background-color: aqua;">
+                    <img 
+                    src="./education.png" 
+                    alt="Education icon" 
+                    class="icon">
+                  <h3>Education</h3>
+                  <p>MCA <br> In Master Computer Science</p>
+                </div>
+            </div>
+            <div class="text-container" >
+                <p style="color:yellow;">As a recent graduate with a passion for Software Development, I am eager to kickstart my career in the
+                    ever evolving world of technology. My strong foundation in Software Development, coupled with a hunger
+                    for learning and problem-solving, positions me as valuable asset to any forward-thinking team.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <img src="./arrow.png" 
+    alt="arrow icon" 
+    class="icon arrow" 
+    onclick="location.href='./skills'"> 
+</section>
+<section id="skills" >
+<p class="section-text-p1" style="color:yellow;">Explore My</p>
+<h1 class="title" style="color:yellow;">Skills</h1>
+<div class="experience-details-container" >
+    <div class="about-containers">
+     <div class="details-container" style="background-color: aqua;">
+        <h2 class="experience-sub-title">Frontend Development</h2>
+        <div class="article-container">
+            <article>
+                <img src="./checkmark.png" 
+                alt="Experience icon" 
+                class="icon">
+                <div>
+                    <h3 >HTML</h3>
+                    <p >Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img src="checkmark.png" 
+                alt="Experience icon" 
+                class="icon">
+                <div>
+                    <h3 >CSS</h3>
+                    <p >Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img src="checkmark.png" 
+                alt="Experience icon" 
+                class="icon">
+                <div>
+                    <h3 >JavaScript</h3>
+                    <p >Basic</p>
+                </div>
+            </article>
+            <article>
+                <img src="checkmark.png" 
+                alt="Experience icon" 
+                class="icon">
+                <div>
+                    <h3>Shell Script</h3>
+                    <p >Basic</p>
+                </div>
+            </article>
+            <article>
+                <img src="checkmark.png" 
+                alt="Experience icon" 
+                class="icon">
+                <div>
+                    <h3>React</h3>
+                    <p>Basic</p>
+                </div>
+            </article>
+            <article>
+                <img src="checkmark.png" 
+                alt="Experience icon" 
+                class="icon">
+                <div>
+                    <h3>React</h3>
+                    <p>Basic</p>
+                </div>
+            </article>
+        
+        </div>
+     </div>
+     <div class="details-container" style="background-color: aqua;" >
+        <h2 class="experience-sub-title" >Frontend Development</h2>
+        <div class="article-container">
+            <article>
+                <img src="./checkmark.png" 
+                alt="Experience icon" 
+                class="icon">
+                <div>
+                    <h3 >SQL</h3>
+                    <p >Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img src="checkmark.png" 
+                alt="Experience icon" 
+                class="icon">
+                <div>
+                    <h3 >Node js</h3>
+                    <p >basic</p>
+                </div>
+            </article>
+            <article>
+                <img src="checkmark.png" 
+                alt="Experience icon" 
+                class="icon">
+                <div>
+                    <h3 >Java</h3>
+                    <p></p>
+                </div>
+            </article>
+            <article>
+                <img src="checkmark.png" 
+                alt="Experience icon" 
+                class="icon">
+                <div>
+                    <h3 >PHP</h3>
+                    <p></p>
+                </div>
+            </article>
+            <article>
+                <img src="checkmark.png" 
+                alt="Experience icon" 
+                class="icon">
+                <div>
+                    <h3 >python</h3>
+                    <p></p>
+                </div>
+            </article>
+        </div>
+     </div>
+    </div>
+</div>
+</section>
+<section id="projects" > 
+    <p class="section-text-p1" style="color:yellow;">Browse My Recent</p> 
+    <h1 class="title" style="color:yellow;">Projects</h1>
+    <div class="experience-details-container">
+        <div class="details-container color-container" style="background-color: black;">
+        <div class="article-container">
+            <img src="./" 
+            alt="project 1" 
+            class="project-img"
+            />
+        </div>
+        <h2 class="experience-sub-title project-title" style="color:rgb(191, 255, 0) ;" >Project One</h2>
+        <div class="btn-container">
+            <button 
+            class="btn btn-color-2 project-btn" 
+            onclick="location.href=''" style="color:yellow;" >
+            Github
+        </button>
+        <button 
+        class="btn btn-color-2 project-btn" 
+        onclick="location.href=''" style="color:yellow;">
+        Live Demo
+    </button>
+        </div>
+        </div>
+        <div class="details-container color-container" style=" background-color: black">
+            <div class="article-container">
+                <img src="./" 
+                alt="project 2" 
+                class="project-img"
+                />
+            </div>
+            <h2 class="experience-sub-title project-title" style="color:rgb(179, 255, 0);">Project Two</h2>
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href=''" style="color:yellow;">
+                Github
+            </button>
+            <button 
+            class="btn btn-color-2 project-btn" 
+            onclick="location.href=''" style="color:yellow;">
+            Live Demo
+        </button>
+            </div>
+            </div>
+            <div class="details-container color-container" style="background-color: black;" >
+            
+            </style>>
+            
+            </style>>
+                <div class="article-container">
+                    <img src="./" 
+                    alt="project 3" 
+                    class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title" style="color:rgb(187, 255, 0);">Project Three</h2>
+                <div class="btn-container" style="background-color: black;">
+                    <button 
+                    class="btn btn-color-2 project-btn" 
+                    onclick="location.href=''" style="color:yellow;">
+                    Github
+                </button>
+                <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href=''" style="color:yellow;">
+                Live Demo
+            </button>
+                </div>
+                </div>
+    </div>
+   
+</section>
+                <div >
+                    <ul>
+                        
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    
+                    </ul>
+                </div>
+                <footer class="site-footer">
+                    <div style="border-color: aqua;">
+                
+                      
+                      <div id="contact-section"> 
+                            <div>
+                                <p  style="color: aqua;">All rights reserved @2023 Prathamesh </p>
+                                
+                                <div class="contact">
+                                    <button id="contactButton">Contact</button>
+                                    <div class="dropdown-content" id="contactDropdown">
+                                      
+                                        <li><a href="mailto:prathameshkulkarni0729@gmail.com">Emial</a></li>
+                                        <li><a href="tel:+918080902804">Phone</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+ 
+
+    <script src="script.js"></script>
+</body>
+</html>
